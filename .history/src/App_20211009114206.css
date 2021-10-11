@@ -1,0 +1,117 @@
+p{
+  text-align: left;
+font: normal normal bold 40px/58px Sitka Banner;
+letter-spacing: 0px;
+color: #086288;
+font-size: 26px;
+}
+
+input::placeholder{
+  color:#086288 ;
+}
+.mb-3:focus + .form-label {
+  color: red;
+} 
+
+ Container{
+  color:#086288 ;
+
+ }
+ .btn {
+  background-color: rgb(254, 167, 16); /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 14px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  /* margin-top: 50px; */
+}
+
+#button1{
+  margin-top: 50px;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgb(225, 193, 65);
+  color: white; /* White text */
+
+}
+.btn1{
+  float: right;
+  background-color: rgb(254, 167, 16); /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  border-radius: 4px;
+}
+.FloatingLabel:focus::-webkit-input-label {
+  color: red;
+}
+.form-control:focus {
+  border-color: #086288;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.form-select:focus{
+  border-color: #086288c4;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+@media only screen and (max-width: 1000px) {
+  .btn {
+    float: right;
+    margin:0 px;
+  }
+  #button1{
+    margin-top: 0px;
+  }
+}
+
+#Floating-label1{
+  width: 150px;
+}
+#Floating-label2{
+  width: 150px;
+  height: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  #Floating-label1{
+    width: 100%;
+  }
+  }
+  @media only screen and (max-width: 1000px) {
+    #Floating-label2{
+      width: 100%;
+    }
+    }
+
+    #date1{
+      width: 165px;
+      padding: 12px;
+    }
+    @media only screen and (max-width: 1000px) {
+      #date1{
+        width: 100%;
+      }
+      }
+
+
+      #searchWidth{
+  height: auto;
+      padding: 16px;
+      }
+
+@media only screen and (max-width: 1000px) {
+  #searchWidth{
+  height: auto;
+    width: 100%;
+  }
+      }
+      #button5{
+        color: white;
+        background-color:#ffa408;
+        border: 1px solid #FFC008 ;
+        border-radius: 4px;
+        padding:0 10px ;
+      }
